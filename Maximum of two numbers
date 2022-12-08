@@ -1,0 +1,6 @@
+x=int(input("enter a no:"))
+y=int(input("enter a no:"))
+if x>y:
+    print("the greatest number is",x)
+else:
+    print("the greatest number is",y)

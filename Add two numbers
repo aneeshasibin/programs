@@ -1,0 +1,4 @@
+x=int(input("enter a no:"))
+y=int(input("enter a no:"))
+c=x+y
+print("the result is",c)

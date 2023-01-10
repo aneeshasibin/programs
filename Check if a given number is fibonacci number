@@ -1,0 +1,11 @@
+import math
+def isperfectsquare(x):
+    s=int(math.sqrt(x))
+    return s*s==x
+def isfibonacci(n):
+    return isperfectsquare(5*n*n -4) or isperfectsquare(5*n*n +4)
+num=int(input("Enter the number:"))
+if isfibonacci(num)== True:
+    print(num, " is a fibonacci number")
+else:
+    print(num ," is not a fibonacci number")

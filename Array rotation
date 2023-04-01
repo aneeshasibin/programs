@@ -1,0 +1,32 @@
+def reverse(start,end,arr):
+    n=end-start+1
+    count=0
+    while (n//2)!=count:
+        arr[start+count],arr[end-count]=arr[end-count],arr[start+count]
+        count+=1
+    return arr
+def rotate_to_left(arr,size,d):
+    start=0
+    end=size-1
+
+    arr=reverse(start,end,arr)
+
+    start=0
+    end=size-d-1
+    arr=reverse(start,end,arr)
+
+    star=size-d
+    end=size-1
+    arr=reverse(start,end,arr)
+    return arr
+
+arr=[1,2,3,4,5,6,7,8]
+size=8
+d=1
+print("original Array",arr)
+
+if d<=size:
+    print(rotate_to_left(arr,size,d))
+else:
+    d=d%size
+    print(rotate_to_left(arr,size,d))

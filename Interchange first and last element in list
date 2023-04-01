@@ -1,0 +1,9 @@
+def interchange(start,end,list):
+    list[start],list[end]=list[end],list[start]
+    return list
+list=[1,2,3,4,5,6]
+start=0
+end=len(list)-1
+print("Original List",list)
+ans=interchange(start,end,list)
+print("Modified List",ans)

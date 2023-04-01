@@ -1,0 +1,6 @@
+def sum_(arr,n):
+    return sum(arr,n)
+arr=[11,22,33,44]
+n=len(arr)
+ans=sum_(arr,n)
+print("sum of array",ans)

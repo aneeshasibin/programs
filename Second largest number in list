@@ -1,0 +1,6 @@
+def second_largest(list):
+    list.sort()
+    return list[-2]
+
+list=[1,12,36,4,67]
+print(second_largest(list))

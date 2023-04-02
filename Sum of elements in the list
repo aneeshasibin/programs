@@ -1,0 +1,5 @@
+def sum_(list,n):
+    return sum(list)
+list=[1,2,3,4]
+n=len(list)
+print(sum_(list,n))

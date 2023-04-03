@@ -1,0 +1,13 @@
+def numbers(list,n):
+    positive_numbers=[]
+    negative_numbers=[]
+    for i in range(0,n):
+        if list[i]>=0:
+            positive_numbers.append(list[i])
+        else:
+            negative_numbers.append(list[i])
+    print("Positive numbers:",positive_numbers)
+    print("Negative Numbers:",negative_numbers)
+list=[1,-12,36,4,-67,8,-9,34,57]
+n=len(list)
+numbers(list,n)

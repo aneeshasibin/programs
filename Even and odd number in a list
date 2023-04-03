@@ -1,0 +1,13 @@
+def numbers(list,n):
+    even=[]
+    odd=[]
+    for i in range(0,n):
+        if list[i]%2==0:
+            even.append(list[i])
+        else:
+            odd.append(list[i])
+    print("Even numbers:",even)
+    print("Odd Numbers:",odd)
+list=[1,12,36,4,67,8,9,34,57]
+n=len(list)
+numbers(list,n)

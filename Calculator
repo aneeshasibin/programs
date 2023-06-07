@@ -1,0 +1,25 @@
+print("_______CALCULATOR_______")
+a=int(input("Enter the number:"))
+b=int(input("Enter the number:"))
+symbol=input("Enter the operations [+,-,*,/,%]:")
+
+def addition(a,b):
+    print(a+b)
+def substraction(a, b):
+    print(a-b)
+def multiplication(a,b):
+    print(a*b)
+def division(a,b):
+    print(a//b)
+def mode(a,b):
+    print(a%b)
+if symbol=='+':
+    addition(a,b)
+elif symbol == '-':
+    substraction(a, b)
+elif symbol=='*':
+    multiplication(a,b)
+elif symbol=='/':
+    division(a,b)
+else:
+    mode(a,b)

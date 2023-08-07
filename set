@@ -1,0 +1,29 @@
+set1={1,2,3,4,5,2}
+set2={9,8,7,4,5,6}
+print(set2)
+print(set1)
+print(set1.union(set2))
+set1.update(set2)
+set1.update([22,34])
+set1.add(10)
+print(set1)
+
+a=set1.intersection(set2)
+print(a)
+set1.intersection_update(set2)
+print(set1)
+print(set1.symmetric_difference(set2))
+print(set1.difference(set2))
+print(set1.isdisjoint(set2))
+
+set1.remove(3)
+print(set1)
+
+
+
+set2.discard(5)
+set1.pop()
+del set1
+set2.clear()
+print(set2)
+print(1 in set1)

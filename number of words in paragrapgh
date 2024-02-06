@@ -1,0 +1,5 @@
+str="If you are passionate about data science and want to know all about it, like what is data science? and " \
+    "what skills are required to become a data scientist, then hold on. In this article, we will explore data science " \
+    "concepts, why is it important, what skills are required to become a data scientist, application of data science and data science techniques."
+lst=str.split(' ')
+print("Count of the words in a paragraph:",len(lst))

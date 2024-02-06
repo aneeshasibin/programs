@@ -1,0 +1,4 @@
+base=int(input("Enter the base of traingle:"))
+height=int(input("Enter the height of a traingle:"))
+area=1/2*(base*height)
+print("Area of traingle",area,"cm")

@@ -1,0 +1,11 @@
+
+def fun(a,b):
+    if b==0:
+        return a
+    else:
+        return fun(b,a%b)
+
+a = 60
+b = 48
+print("The Greatest Common Divisor of 60 and 48 is : ",fun(60,48))
+
